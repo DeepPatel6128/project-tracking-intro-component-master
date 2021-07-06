@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Project tracking intro component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <audio preload="metadata" src="./audio.mp3" id="box-audio"></audio>
+  <!-- Background -->
+    <div class="background"></div>
+
+
+    <div class="container">
+      <!-- Header and navbar -->
+      <header class="header">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="" class="logo-image">
+        </div>
+        <img src="./images/icon-hamburger.svg" alt="" class="icon  ">
+        <div class="navbar hide">
+          <ul>
+            <li class="link"><a href="#">Product</a></li>
+            <li class="link"><a href="#">Features</a></li>
+            <li class="link"><a href="#">Pricing</a></li>
+            <li class="exception"><span class="dot"></span></li>
+            <li class="grey"><a href="#">Login</a></li>
+          </ul>
+        </div>
+      </header>
+      <!-- Grid section -->
+
+      <div class="grid">
+
+        <!-- Left side of the grid -->
+        <div class="left-side">
+          <p class="text capital"><span class="new-word">new</span> Monograph Dashboard</p>
+          <span class="hide-text"><h1 class="heading">Powerful insights</h1></span> <span><h1 class="heading">into your team</h1></span>
+          <p class="planning"> Project planning and time tracking for agile teams</p>
+          <p class="text-with-btn"><button class="btn">Schedule a demo</button>to see a live preview</p>
+        </div>
+
+        <!-- Right side of the grid -->
+        <div class="right-grid">
+          <div class="image">
+            <img src= "./images/illustration-devices.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  <!-- Product
+  Features
+  Pricing
+  Login
+
+  New
+  Monograph Dashboard
+
+  Powerful insights into your team
+  Project planning and time tracking for agile teams
+
+  Schedule a demo
+  to see a live preview
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+  <script src="./tutorial/gsap-public/minified/gsap.min.js"></script>
+  <script src="./jquery-3.6.0.min.js"></script>
+</body>
+</html>

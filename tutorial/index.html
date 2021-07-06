@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js" defer></script>
+    <title>Document</title>
+</head>
+<style>
+    body{
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
+        overflow: hidden;
+    }
+    .header{
+        height: 15vh;
+        background-color: red;
+        font-weight: 700;
+    }
+    .links{
+        width: 100%;
+        height:100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+    }
+    .footer{
+        height: 15vh;
+        background-color: blue;
+    }
+    .content{
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+    }
+    .sidebar{
+        width: 15vw;
+        height: 100%;
+        background-color: green;
+    }
+
+</style>
+<body>
+    <div class="header">
+        <div class="links">
+            <div class="link">Link 1</div>
+            <div class="link">Link 2</div>
+            <div class="link">Link 3</div> 
+        </div>
+    </div>
+    <div class="content">
+        <div class="sidebar left"></div>
+        <button class="button">Reverse</button> 
+        <div class="sidebar right"></div>
+    </div>
+    <div class="footer"></div>
+    <script src="./gsap-public/minified/gsap.min.js"></script>
+</body>
+</html>

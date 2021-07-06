@@ -1,0 +1,40 @@
+gsap.from( '.header',{
+    y:'-100',
+    duration:1,
+    ease:'elastic'
+})
+gsap.from('.link',{
+    opacity:0,
+    duration:1,
+    delay:0.7,
+    stagger:.5
+})
+gsap.from('.right',{
+    x:'-100vw',
+    duration:1.5,
+    delay:1,
+    ease:'elastic'
+})
+gsap.from('.left',{
+    x:'100vw',
+    duration:1.5,
+    delay:1,
+    ease:'elastic'
+})
+gsap.from( '.footer',{
+    y:'200',
+    duration:0.5,
+    delay:2.5,
+    ease:'elastic'
+})
+gsap.fromTo('.button',{
+    opacity:0,
+    scale:0,
+    rotation:720
+},{
+    opacity:1,
+    scale:2,
+    rotation:0,
+    duration:1,
+    delay:3
+})
